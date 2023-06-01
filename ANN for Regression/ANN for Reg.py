@@ -3,7 +3,7 @@ import tensorflow as tf
 import pandas as pd
 
 #importing data
-dataset = pd.read_excel('ML Projects\ANN for Regression\Folds5x2_pp.xlsx')
+dataset = pd.read_excel('Folds5x2_pp.xlsx')
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
